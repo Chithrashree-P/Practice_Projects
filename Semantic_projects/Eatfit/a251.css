@@ -1,0 +1,126 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.project{
+    .navbar{
+
+        display: flex;
+        justify-content: space-between;
+        height: 50px;
+        align-items: center;
+        border-bottom: 1px solid gainsboro;
+    img{
+        height: 25px;
+        width: 25px;
+    }
+    .elements{
+        margin-left: 70px;
+        font-weight: bold;
+    }  
+}
+    a{
+        text-decoration: none;
+        text-transform: capitalize;
+        padding: 10px; 
+        color: black;  
+    }
+    .logo{
+        text-align: center;
+        height: 80px;
+        align-items: center;
+         img{
+            height: 40px;
+            width: 40px;
+         }    
+         .h3{
+            font-size: 50px;
+            padding-top: 10px;
+            font-weight: bold;
+            color: darkmagenta;
+            text-transform: capitalize;
+         }
+}
+.child{
+    text-align: center;
+    height: 50px;
+    font-weight: bold;
+    align-items: center;
+    border-bottom: 1px solid gainsboro;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 20px;
+    border-bottom: 1px solid black;
+    
+    .card{
+        h2{
+            color:rgb(6, 6, 77);
+        }
+        hover{
+        
+            transform: scale(1.0);
+        }
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        border: 1px solid black;
+        padding: 10px;
+        text-align: justify;
+    }
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: blue;
+    height: 300px;
+    align-items: center;
+    width: 100%;
+    color: white;
+    img{
+        height: 40px;
+        width: 40px;   
+    }
+    a{
+        color: white;
+        display: flex;
+        flex-direction: column;
+    }
+    h1{
+        border-bottom: 1px solid white;
+        width: 100%;
+        text-align: center;
+        font-size: 50px;
+    }
+    h2{
+        padding-top: 5px;
+    }
+}
+}
+.container .card:hover{
+    background-color: white;
+    transition : 1s;
+}
+.container .card:hover{
+    transform: scale(1.1);
+    transition : 1s;
+    background-color: white;
+}
+.elements .navbar1:hover{
+    background-color: darkgray;
+    color: red;
+    transition : 1s;
+    transform: scale(1.1);
+}
+.child .child1:hover{
+    background-color: darkgray;
+    color: red;
+    transition : 1s;
+    transform: scale(1.1);  
+}

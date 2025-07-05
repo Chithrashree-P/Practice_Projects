@@ -1,0 +1,484 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    .div1{
+        text-align: center;
+        padding: 20px;
+    }
+    .div2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        border: 1px solid black;
+        border-radius: 100px;
+        height: 100px;
+        align-items: center;
+        .logo{
+            img{
+            width: 350px;
+            height: 90px;
+        }
+    }
+    a{
+        color: black;
+        text-decoration: none;
+        text-transform: capitalize;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .contact{
+        border: 1px solid orange;
+        border-radius: 40px;
+        justify-content: center;
+        height: 40px;
+        width: 200px;
+        align-items: center;
+        padding-top: 10px;
+        display: flex;
+        h3{
+            color: orange;
+        }
+        i{
+            color:orange;
+        }
+    }
+}
+    .div3{
+     display: flex;
+     flex-direction: column;
+     gap: 40px;
+     height: 200px;
+     align-items: center;
+     justify-content: center;
+     h1{
+        font-size: 50px;
+     }
+    }
+    .div4{
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100px;
+        .inp{
+            border: 1px solid black;
+            height: 60px;
+            align-items: center;
+            display: flex;
+            justify-content: space-evenly;
+            border-radius: 50px;
+        }
+        .form{
+            border: 1px solid white;
+            border-radius: 50px;
+            font-size: 15px;
+        }
+        .btn{
+        button{
+            padding: 20px;
+            border: 1px solid rgb(252, 115, 65);
+            border-radius: 40px;
+            background-color:white;
+        }
+        button:hover{
+            background-color: orange;
+            color: white;
+        }
+    }
+        
+    }
+    .div5{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        padding-top: 30px;
+        .image{
+            height: 500px;
+            align-items: center;
+            img{
+                height: 200px;
+                width: 350px;
+                padding-top: 240px;
+                align-items: center;
+            }
+            img:hover{
+                transform: scale(1.1);
+                transition: transform 0.5s;
+                background-color: rgb(243, 232, 212);
+                border-radius: 50px;
+            }
+        }
+        .card{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 10px;
+            padding: 10px;
+            width: 400px;
+            height: 200px;
+            align-items: center;
+            border: 1px solid black;
+            border-radius: 30px;
+            text-align: justify;
+        }
+        #c1{
+            background-color: rgb(202, 202, 248);
+        }
+        #c3{
+            background-color: rgb(138, 238, 205);
+        }
+        #c2{
+            background-color: rgb(250, 163, 250);
+        }
+        #c4{
+            background-color: rgb(250, 250, 104);
+        }
+        #c5{
+            background-color: pink;
+        }
+        #c6{
+            background-color: orange;
+        }
+        h1{
+            font-weight: 500;
+        }
+    }
+    .div6{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 150px;
+        align-items: center;
+        gap: 30px;
+        padding-top: 20px;
+
+        h1{
+            font-size: 50px;
+        }
+        h2{
+            font-style: 20px;
+        }
+    }
+    .div7{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        .card{
+            width: 300px;
+            height: 250px;
+            align-items: center;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        justify-content: center;
+        border: 1px solid red;
+        background-color: rgb(248, 220, 220);
+        border-radius: 10px;
+        .button{
+            display: flex;
+            flex-direction: row;
+            padding: 10px;
+            border: 1px solid rgb(241, 84, 84);
+            border-radius: 10px;
+            background-color: rgb(238, 208, 208);
+        }
+    }
+    img{
+        height: 70px;
+        width: 70px;
+        border-radius: 50px;
+    }
+}
+}
+.content{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    height: 200px;
+    align-items: center;
+    .tags{
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        border: 1px solid rgb(240, 124, 124);
+        height: 70px;
+        align-items: center;
+        border-radius: 100px;
+        width: 800px;
+        a{
+            text-decoration: none;
+            text-transform: capitalize;
+            font-size: 20px;
+        }
+    }
+
+    .what{
+        h1{
+      font-size: 50px;
+      text-align: center;
+
+    }
+}
+}
+.cards{
+    .card{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 20px;
+        img{
+            height: 100px;
+            width: 100px;
+            
+        }
+        p{
+            font-size: 25px;
+            font-weight: bold;
+            align-items: center;
+            text-align: center;
+        }
+        .card1{
+            border: 1px solid orange;
+            background-color: rgb(255, 255, 154);
+            border-radius: 30px;
+            height: 300px;
+            width: 820px;
+        }
+        .card2{
+            border: 1px solid pink;
+            background-color: rgb(252, 155, 155);
+            border-radius: 30px;
+            height: 300px;
+            width: 400px;
+            padding-top: 10px;
+        }
+    }
+    .card2{
+      
+        img{
+            height: 100px;
+            width: 100px;
+        }
+        p{
+            font-size: 25px;
+            font-weight: bold;
+            align-items: center;
+            text-align: justify;
+        
+        }
+        .card345{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+        
+        .c1{
+            border: 1px solid skyblue;
+            background-color: rgb(171, 224, 245);
+            width: 400px;
+            height: 350px;
+            border-radius: 30px;
+            padding-top: 100px;
+        }
+        .c2{
+            border: 1px solid blue;
+            background-color: rgb(199, 199, 243);
+            width: 400px;
+            height: 350px;
+            border-radius: 30px;
+            padding-top: 100px;
+        }
+        .c3{
+            border: 1px solid pink;
+            background-color:pink;
+            width: 400px;
+            height: 350px;
+            border-radius: 30px;
+            padding-top: 100px;
+        }
+    }
+    }
+    .card3{
+        .card{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            img{
+                height: 100px;
+                width: 100px;
+                
+            }
+            p{
+                font-size: 25px;
+                font-weight: bold;
+                align-items: center;
+                text-align: justify;
+            }
+            .card2{
+                border: 1px solid orange;
+                background-color: rgb(255, 255, 154);
+                border-radius: 30px;
+                height: 300px;
+                width: 820px;
+            }
+            .card1{
+                border: 1px solid pink;
+                background-color: rgb(252, 155, 155);
+                border-radius: 30px;
+                height: 300px;
+                width: 400px;
+            }
+        }
+}
+}
+.who{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 100px;
+    font-size: 30px;
+    text-align: center;
+    height: 400px;
+    align-items: center;
+    
+
+p{
+    font-weight: 15px;
+    
+}
+.h{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    .hh{
+    border: 1px solid gray;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 30px;
+    width:fit-content;
+    font-weight: lighter;
+}
+}
+}
+.student{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+    padding-top: 400px;
+    img{
+        height: 100px;
+        width: 100px;
+        border-radius: 50px;
+        padding: 30px;
+    }
+    h2{
+        text-transform: capitalize;
+        font-weight: 30px;
+        text-align: center;
+        font-size: 40px;
+        border-top: 1px solid violet;
+        width: 100%;
+        
+    }
+  
+}
+.still{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    gap: 40px;
+    align-items: center;
+    background-color: rgb(210, 253, 253);
+    h1{
+        font-size: 50px;
+    }
+    button{
+        padding: 15px;
+        border-radius: 20px;
+    }
+}
+.team{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 400px;
+    align-items: center;
+    background-color:rgb(255, 170, 214);
+    gap: 5px;
+    padding-bottom: 10px;
+    h2{
+        text-align: center;
+    font-size: 50px;
+    }
+    button{
+        
+        border: 1px solid black;
+        border-radius: 15px;
+        padding: 15px;
+        width: fit-content;
+        background-color: white;
+        
+    }
+}
+.contactus{
+    border-top: 1px solid orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 20px;
+    img{
+        width: 200px;
+        height: 50px;
+    }
+}
+.contact{
+        height: 100px;
+        width: 300px;
+        .h2{
+            font-weight: lighter;
+            text-transform: capitalize;
+            padding: 8px;
+            
+        }
+    }  
+.elements .element:hover{
+    transform: scale(1.0);
+    transition: 1s;
+    background-color: orange;
+    color: white;
+    border-radius: 20px;
+}
+.div4 .btn:hover{
+    transform: scale(1.0);
+    transition: 1s;
+    background-color: orange;
+    color: white;
+    
+}
+.div7 .card:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.who .hh:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    background-color: darkorange;
+    color: white;
+}

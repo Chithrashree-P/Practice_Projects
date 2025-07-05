@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: red;
+}
+#container{
+    #navbar{
+        a{
+            margin-right: 10px;
+            text-decoration: none;
+            font-size: 15px;
+            color: white;
+            text-transform: capitalize;
+            font-weight: bold;
+        }
+    
+        #logo{
+            font-size: 50px;
+            margin-left: 20px;
+            color: white;
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+
+        background-color:red;
+        
+        #home{
+            margin-left: 400px;
+            color:rgb(244, 244, 250);
+            
+        }
+
+        #im{
+            font-size: 30px;
+            margin-top: 200px;
+            margin-left: 40px;
+            color: aliceblue;
+            font-weight: bold;
+        }
+        #kate{
+            font-size: 50px;
+            margin-top: 30px;
+            margin-left: 40px;
+            color: aliceblue;
+            font-weight: bold;
+        }
+        #web{
+            font-size: 35px;
+            margin-top: 30px;
+            margin-left: 40px;
+            color: aliceblue;
+            font-weight: bold;
+            
+        }
+
+        #hire{
+            font-size:20px;
+            margin-top: 20px;
+            margin-left: 40px;
+        
+        
+        }
+        #b1{
+            background-color: aliceblue;
+            padding: 10px;
+            /* border-radius: 10px; */
+            border-color: aliceblue;
+            font-size:15px;
+            color: red;
+            font-weight: bold;
+            
+        }
+        #b2{
+            background-color: aliceblue;
+            padding: 10px;
+            /* border-radius: 10px; */
+            border-color: aliceblue;
+            font-size:15px;
+            color: red;
+            font-weight: bold;
+    }
+    #img1{
+        /* height: 400px;
+        width: 300px; */
+        border-radius: 50px;
+        margin-left: 800px;
+        margin-top: -400px;
+    }
+    }    
+   
+}
